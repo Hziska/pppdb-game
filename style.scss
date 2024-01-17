@@ -1,0 +1,164 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+    // font-family: 'Gabarito', Arial, Helvetica, sans-serif;
+    font-family: cursive,Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 88%;
+    margin: auto;
+}
+
+header{
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    // navigasi
+    .navigasi{
+        padding: 15px;
+        color: white;
+        .nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            //    logo
+            .logo{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img{
+                    width: 50px;
+                    margin-right: 15px;
+                    height: 50px;
+                }
+                h1{
+                    font-family: 'designer',sans-serif;
+                    font-size: 35px;
+                    letter-spacing: 5px;
+                    color: rgb(112, 247, 247);
+                }
+                h1:after{
+                    content: 'Game on!';
+                    display: block;
+                    font-size: 10px;
+                }
+                }
+                
+                // navbar
+                .navbar{
+                    ul{
+                        display: flex;
+                        li{
+                            list-style: none;
+                            margin-inline:20px ;
+                            a{
+                        color: white;
+                        text-decoration: none;
+                        display: inline-block;
+                    }
+                    a:after{
+                        content: '';
+                        width: 0px;
+                        height: 2px;
+                        background-color: #fff;
+                        display: block;
+                        transition: .7s;
+                    }
+                    a:hover:after{
+                        width: 42px;
+                    }
+                }
+            }
+        }
+        }
+    }
+
+    // about
+    .about{
+        .desc-about{
+        width: 50%;
+        font-size:21px;
+        color: white;
+        position: absolute;
+        top: 35%;
+        h2{
+            color:rgb(112, 247, 247) ;
+            text-transform: capitalize;
+            font-family: sans-serif;
+            margin-bottom: 5px;
+            font-style: italic;
+        }
+        p{
+            margin-bottom: 20px;
+        }
+    
+        // button
+        a{
+           text-decoration: none;
+           padding: 5px 25px;
+            background-color: rgb(112, 247, 247);
+            color: black;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+    }
+
+}
+
+// game
+.game{
+
+    background: linear-gradient(#1D267D 50%,#35155D);
+   .all-game{
+    padding-top: 30px;
+    .box{
+        justify-content: center;
+        display: flex;
+        .card{
+            margin: 50px 20px;
+            width: 30%;
+            height: 400px;
+            box-shadow: 0 0 10px 5px white;
+            border-radius: 30px;
+            color: white;
+            overflow: hidden;
+            img{
+                width: 100%;
+            }
+            .desc{
+                margin-top: 20px;
+                text-align: center;
+                p{
+                    margin-bottom: 20px;
+                }
+                a{
+                 
+                    padding: 3px 20px;
+                    background-color: white;
+                    margin-top: 15px;
+                    text-decoration: none;
+                    color: black;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+   }
+}
+
+
+
+// font
+@font-face {
+    font-family: 'designer';
+    src: url('font/Designer.otf') format('opentype');
+}
+// @font-face {
+//     font-family: 'tommy';
+//     src: url('font/MADE\ TOMMY\ Medium_PERSONAL\ USE.otf') format('opentype');
+// }

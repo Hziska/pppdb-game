@@ -1,0 +1,141 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  scroll-behavior: smooth;
+  font-family: cursive, Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 88%;
+  margin: auto;
+}
+
+header {
+  background-image: url(img/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+header .navigasi {
+  padding: 15px;
+  color: white;
+}
+header .navigasi .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .navigasi .nav .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .navigasi .nav .logo img {
+  width: 50px;
+  margin-right: 15px;
+  height: 50px;
+}
+header .navigasi .nav .logo h1 {
+  font-family: "designer", sans-serif;
+  font-size: 35px;
+  letter-spacing: 5px;
+  color: rgb(112, 247, 247);
+}
+header .navigasi .nav .logo h1:after {
+  content: "Game on!";
+  display: block;
+  font-size: 10px;
+}
+header .navigasi .nav .navbar ul {
+  display: flex;
+}
+header .navigasi .nav .navbar ul li {
+  list-style: none;
+  margin-inline: 20px;
+}
+header .navigasi .nav .navbar ul li a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+header .navigasi .nav .navbar ul li a:after {
+  content: "";
+  width: 0px;
+  height: 2px;
+  background-color: #fff;
+  display: block;
+  transition: 0.7s;
+}
+header .navigasi .nav .navbar ul li a:hover:after {
+  width: 42px;
+}
+header .about .desc-about {
+  width: 50%;
+  font-size: 21px;
+  color: white;
+  position: absolute;
+  top: 35%;
+}
+header .about .desc-about h2 {
+  color: rgb(112, 247, 247);
+  text-transform: capitalize;
+  font-family: sans-serif;
+  margin-bottom: 5px;
+  font-style: italic;
+}
+header .about .desc-about p {
+  margin-bottom: 20px;
+}
+header .about .desc-about a {
+  text-decoration: none;
+  padding: 5px 25px;
+  background-color: rgb(112, 247, 247);
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.game {
+  background: linear-gradient(#1D267D 50%, #35155D);
+}
+.game .all-game {
+  padding-top: 30px;
+}
+.game .all-game .box {
+  justify-content: center;
+  display: flex;
+}
+.game .all-game .box .card {
+  margin: 50px 20px;
+  width: 30%;
+  height: 400px;
+  box-shadow: 0 0 10px 5px white;
+  border-radius: 30px;
+  color: white;
+  overflow: hidden;
+}
+.game .all-game .box .card img {
+  width: 100%;
+}
+.game .all-game .box .card .desc {
+  margin-top: 20px;
+  text-align: center;
+}
+.game .all-game .box .card .desc p {
+  margin-bottom: 20px;
+}
+.game .all-game .box .card .desc a {
+  padding: 3px 20px;
+  background-color: white;
+  margin-top: 15px;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+}
+
+@font-face {
+  font-family: "designer";
+  src: url("font/Designer.otf") format("opentype");
+}/*# sourceMappingURL=style.css.map */

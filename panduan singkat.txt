@@ -1,0 +1,2 @@
+pada folder game2 & game3 harus di simpan di htdocs untuk 
+bisa di akses nyaa, 
